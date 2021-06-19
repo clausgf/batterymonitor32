@@ -1,0 +1,25 @@
+{
+    "name": "batterymonitor32",
+    "version": "1.0.0",
+    "description": "Battery Monitor for ESP32",
+    "keywords": "battery, esp32",
+    "repository":
+    {
+        "type": "git",
+        "url": "https://github.com/clausgf/batterymonitor32.git"
+    },
+    "authors":
+    [
+        {
+            "name": "Claus",
+            "url": "https://github.com/clausgf",
+            "maintainer": true
+        }
+    ],
+    "license": "MIT",
+    "homepage": "https://github.com/clausgf/batterymonitor32/",
+    "dependencies": {
+    },
+    "frameworks": ["arduino"],
+    "platforms": "*"
+}
