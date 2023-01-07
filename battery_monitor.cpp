@@ -26,7 +26,7 @@ BatteryMonitor::BatteryMonitor(int pin,
 
 BatteryMonitor& BatteryMonitor::measure()
 {
-    analogSetWidth(_bits);  // 11 bit is alldgedly more linear than 12 bit
+    analogReadResolution(_bits);  // 11 bit is alldgedly more linear than 12 bit
     analogSetAttenuation(ADC_11db);
 
     uint64_t sum = 0;

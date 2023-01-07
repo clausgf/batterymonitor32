@@ -63,7 +63,7 @@ public:
 
 private:
     int _pin;
-    const int _bits = 11;
+    const int _bits = 11;  // 11 bit is alldgedly more linear than 12 bit
     int _voltageFactor_perMille;
     int _voltageBias_mV;
     int _noOfMeasurements;
